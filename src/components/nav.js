@@ -22,13 +22,13 @@ function NavComponent() {
   const toggle = () => setIsOpen(!isOpen);
   return (
     <Navbar color="light" light expand="md">
-    <NavbarBrand href="/">Reactstrap</NavbarBrand>
+    <NavbarBrand href="/PortfolioWebsite">Reactstrap</NavbarBrand>
     {/* <Collapse isOpen={isOpen} navbar> */}
     <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
       <Nav className="mr-auto" navbar>
         <NavItem>
-        <NavLink href="/">Home</NavLink>
+        <NavLink href="/PortfolioWebsite">Home</NavLink>
         </NavItem>
         <NavItem>
          <NavLink href="/about/">About</NavLink>

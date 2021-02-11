@@ -23,7 +23,7 @@ function App() {
        {/* A <Switch> looks through its children <Route>s and
            renders the first one that matches the current URL. */}
        <Switch>
-         <Route path="/" exact component={Home}/>
+         <Route path="/PortfolioWebsite" exact component={Home}/>
        </Switch>
      </div>
      <Footer></Footer>

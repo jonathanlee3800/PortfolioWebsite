@@ -31,7 +31,7 @@ function NavComponent() {
         <NavLink href="/PortfolioWebsite">Home</NavLink>
         </NavItem>
         <NavItem>
-         <NavLink href="/about/">About</NavLink>
+         <NavLink href="/About/">About</NavLink>
         </NavItem>
         <NavItem>
         <NavLink href="/components/">Components</NavLink>           

@@ -12,6 +12,7 @@ import {
 import Home from '../src/pages/home'
 import NavComponent from '../src/components/nav'
 import Footer from '../src/components/footer'
+import About from './pages/about';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
            renders the first one that matches the current URL. */}
        <Switch>
          <Route path="/PortfolioWebsite" exact component={Home}/>
+         <Route path="/About" exact component={About}/>
        </Switch>
      </div>
      <Footer></Footer>

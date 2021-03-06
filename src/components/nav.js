@@ -14,7 +14,12 @@ import {
     DropdownItem,
     NavbarText
   } from 'reactstrap';
-
+  import {
+    HashRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 function NavComponent() {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -28,13 +33,13 @@ function NavComponent() {
         <Collapse isOpen={isOpen} navbar>
       <Nav className="mr-auto" navbar>
         <NavItem>
-        <NavLink href="/PortfolioWebsite">Home</NavLink>
+        <Link to="/PortfolioWebsite">Home</Link>
         </NavItem>
         <NavItem>
-         <NavLink href="/About/">About</NavLink>
+         <Link to="/About/">About</Link>
         </NavItem>
         <NavItem>
-        <NavLink href="/components/">Components</NavLink>           
+        <Link to="/components/">Components</Link>           
          </NavItem>
       </Nav>
       <NavbarText>Simple Text</NavbarText>

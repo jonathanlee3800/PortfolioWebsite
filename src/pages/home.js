@@ -24,7 +24,7 @@ function Home() {
     <Col md="0" xl="3"></Col>
         <Col md="12" xl="5">     
         <Jumbotron1 fluid >
-          <h1><Typewriter 	 string='Hello my name is Jonathan' delay={80} /></h1>
+          <h1><Typewriter 	 string='Hello my name is The legend 27' delay={80} /></h1>
        
      </Jumbotron1></Col>
         <Col md="0" xl="4">
